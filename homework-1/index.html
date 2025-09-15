@@ -3,23 +3,55 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/styles.css" />
     <script defer src="js/app.js"></script>
     <title>Homework 1</title>
   </head>
   <body>
-    <nav>
+    <nav class="navbar">
       <a href="index.html">Home</a>
-      <a href="#">About</a>
-      <a href="#">Contact</a>
+      <div class="dropdown">
+        <button class="dropbtn">Titles</button>
+        <div class="dropdown-content">
+          <a href="titles/blc.html">Bleach</a>
+          <a href="titles/htr.html">Hunter x Hunter</a>
+          <a href="titles/jjk.html">Jujutsu Kaisen</a>
+          <a href="titles/cgh.html">Code Geass</a>
+        </div>
+      </div>
+      <a href="#">Rules</a>
     </nav>
     <main>
-      <h1>Homework</h1>
+      <h1 class="title">Union Arena</h1>
+      <p class="description">Union Arena is a Trading Card Game developed and published by Bandai.</p>
+      <p class="description">Explore the flagship titles.</p>
+      <div class="banners-container">
+        <img
+          src="images/blc-banner.png"
+          alt="bleach banner"
+          class="banner"
+        />
+        <img
+          src="images/htr-banner.png"
+          alt="hunter x hunter banner"
+          class="banner"
+        />
+        <img
+          src="images/jjk-banner.png"
+          alt="jujutsu kaisen banner"
+          class="banner"
+        />
+        <img
+          src="images/cgh-banner.png"
+          alt="code geass banner"
+          class="banner"
+        />
+      </div>
     </main>
     <footer>
       <a href="#">Attributions</a>
       <p>|</p>
-      <a href="#">GitHub</a>
+      <a href="https://github.com/csalguera/newm-n315/tree/main/homework-1" target="_blank">GitHub</a>
     </footer>
   </body>
 </html>

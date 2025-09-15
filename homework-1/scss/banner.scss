@@ -1,0 +1,15 @@
+.banners-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner {
+  width: 600px;
+  margin: 8px 0;
+}
+
+.banner:hover {
+  cursor: pointer;
+}
