@@ -1,6 +1,6 @@
 // cached element references
 const navRef = document.querySelector('.navbar')
-const bannersRef = document.querySelector('.banners-container')
+const footerRef = document.querySelector('.footer')
 
 // home link
 const home = document.createElement('a')
@@ -43,20 +43,17 @@ rules.textContent = 'Rules'
 
 navRef.append(home, dropDown, rules)
 
-const banners = [
-  { href: 'blc.html', src: 'images/blc-banner.png', alt: 'bleach banner' },
-  { href: 'htr.html', src: 'images/htr-banner.png', alt: 'hunter x hunter banner' },
-  { href: 'jjk.html', src: 'images/jjk-banner.png', alt: 'jujutsu kaisen banner' },
-  { href: 'cgh.html', src: 'images/cgh-banner.png', alt: 'code geass banner' },
-]
+const attributions = document.createElement('a')
+attributions.href = '#'
+attributions.textContent = 'Attributions'
+attributions.target = '_blank'
 
-banners.forEach(({ href, src, alt }) => {
-  const a = document.createElement('a')
-  a.href = href
-  const img = document.createElement('img')
-  img.src = src
-  img.alt = alt
-  img.className = 'banner'
-  a.appendChild(img)
-  bannersRef.appendChild(a)
-})
+const divider = document.createElement('p')
+divider.textContent = '|'
+
+const gitHub = document.createElement('a')
+gitHub.href = 'https://github.com/csalguera/newm-n315/tree/main/homework-1'
+gitHub.textContent = 'GitHub'
+gitHub.target = '_blank'
+
+footerRef.append(attributions, divider, gitHub)
