@@ -44,7 +44,7 @@ rules.textContent = 'Rules'
 navRef.append(home, dropDown, rules)
 
 const attributions = document.createElement('a')
-attributions.href = 'attributions.md'
+attributions.href = 'https://github.com/csalguera/newm-n315/blob/main/homework-1/attributions.md'
 attributions.textContent = 'Attributions'
 attributions.target = '_blank'
 
