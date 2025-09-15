@@ -15,10 +15,10 @@ const dropDownContent = document.createElement('div')
 dropDownContent.className = 'dropdown-content'
 
 const titles = [
-  { href: 'titles/blc.html', text: 'Bleach' },
-  { href: 'titles/htr.html', text: 'Hunter x Hunter' },
-  { href: 'titles/jjk.html', text: 'Jujutsu Kaisen' },
-  { href: 'titles/cgh.html', text: 'Code Geass' },
+  { href: 'blc.html', text: 'Bleach' },
+  { href: 'htr.html', text: 'Hunter x Hunter' },
+  { href: 'jjk.html', text: 'Jujutsu Kaisen' },
+  { href: 'cgh.html', text: 'Code Geass' },
 ]
 
 titles.forEach(({ href, text }) => {
