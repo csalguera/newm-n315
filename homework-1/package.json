@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "compile-sass": "sass scss/styles.scss css/styles.css -w --no-source-map",
+    "serve": "live-server"
+  },
+  "dependencies": {
+    "sass": "^1.92.1"
+  }
+}
