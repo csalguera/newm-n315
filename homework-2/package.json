@@ -1,0 +1,19 @@
+{
+  "name": "homework-2",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "serve": "live-server",
+    "compile": "sass scss/styles.scss css/styles.css -w --no-source-map"
+  },
+  "dependencies": {
+    "sass": "^1.93.0"
+  }
+}
