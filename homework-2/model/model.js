@@ -49,7 +49,7 @@ const gameData = {
       { name: "Monk", image: 'images/ffi/Monk-ff1-art.webp' },
       { name: "Red Mage", image: 'images/ffi/Redmage-ff1-art.webp' },
       { name: "White Mage", image: 'images/ffi/Whitemage-ff1-art.webp' },
-      { name: "Black Mage", image: 'images/ffi/blackmage-ff1-art.webp' },
+      { name: "Black Mage", image: 'images/ffi/Blackmage-ff1-art.webp' },
     ],
   },
   ffii: {
