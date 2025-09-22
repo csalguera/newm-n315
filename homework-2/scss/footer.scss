@@ -1,0 +1,13 @@
+footer {
+  background-image: linear-gradient(315deg, rgb(61, 171, 173), rgb(160, 104, 200));
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+
+footer a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+}
