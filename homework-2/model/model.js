@@ -14,8 +14,7 @@ const homePage = (
     ${createTextElement("p", "Learn about the various Final Fantasy titles!", "text")}
     ${createLinkElement(`${createImgElement("images/ffi/final-fantasy-1-logo.avif")}`, 'ffi', 'banner')}
     ${createLinkElement(`${createImgElement("images/ffii/final-fantasy-2-logo.avif")}`, 'ffii', 'banner')}
-    ${createLinkElement(`${createImgElement("images/final-fantasy-3-logo.avif")}`, 'ffiii', 'banner')}
-    ${createLinkElement(`${createImgElement("images/final-fantasy-4-logo.avif")}`, 'ffiv', 'banner')}
+    ${createLinkElement(`${createImgElement("images/ffiii/final-fantasy-3-logo.avif")}`, 'ffiii', 'banner')}
   `
 )
 
@@ -58,21 +57,22 @@ const gameData = {
     image: 'images/ffii/final-fantasy-2-logo.avif',
     charTitle: 'Characters',
     characters: [
-      'images/ffii/Firion-art.webp',
-      'images/ffii/FFII_DoS_Maria.webp',
-      'images/ffii/FFII_DoS_Guy.webp',
-      'images/ffii/FFII_DoS_Leon.webp',
+      { name: "Firion", image: 'images/ffii/Firion-art.webp' },
+      { name: "Maria", image: 'images/ffii/FFII_DoS_Maria.webp' },
+      { name: "Guy", image: 'images/ffii/FFII_DoS_Guy.webp' },
+      { name: "Leon", image: 'images/ffii/FFII_DoS_Leon.webp' },
     ],
   },
   ffiii: {
     title: 'Final Fantasy III',
-    image: 'images/final-fantasy-3-logo.avif',
+    image: 'images/ffiii/final-fantasy-3-logo.avif',
     charTitle: 'Characters',
-  },
-  ffiv: {
-    title: 'Final Fantasy IV',
-    image: 'images/final-fantasy-4-logo.avif',
-    charTitle: 'Characters',
+    characters: [
+      { name: "Luneth", image: 'images/ffiii/Luneth-Freelancer.webp' },
+      { name: "Arc", image: 'images/ffiii/Arc-Freelancer.webp' },
+      { name: "Refia", image: 'images/ffiii/Refia-Freelancer.webp' },
+      { name: "Ingus", image: 'images/ffiii/Ingus-Freelancer.webp' },
+    ],
   },
 }
 
