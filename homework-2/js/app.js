@@ -12,6 +12,14 @@ const initListeners = () => {
     let bannerId = e.currentTarget.id;
     changePage(bannerId);
   });
+
+  $("#app").on("mouseover", ".character", (e) => {
+    $(e.currentTarget).find("figcaption").addClass("show-caption");
+  });
+
+  $("#app").on("mouseout", ".character", (e) => {
+    $(e.currentTarget).find("figcaption").removeClass("show-caption");
+  });
 };
 
 $(document).ready(() => {
