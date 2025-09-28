@@ -1,0 +1,18 @@
+nav {
+  background-color: #fece7a;
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+
+nav a {
+  color: #000;
+  font-size: 16px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: transform 0.3s ease;
+}
+
+nav a:hover {
+  transform: scale(1.2);
+}
