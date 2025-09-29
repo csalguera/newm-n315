@@ -22,7 +22,7 @@ const displayErrorPage = (error, pageName) => {
     icon: "error",
   }).then((result) => {
     if (result.value) {
-      window.location = "/#home";
+      window.location = "#home";
     }
   });
 };
