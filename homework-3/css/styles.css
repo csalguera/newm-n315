@@ -41,7 +41,7 @@ p {
 }
 
 nav {
-  background-color: #fece7a;
+  background-color: #afdace;
   padding: 20px;
   display: flex;
   justify-content: space-around;
@@ -91,7 +91,7 @@ nav a:hover {
 }
 
 footer {
-  background-color: #fece7a;
+  background-color: #afdace;
   padding: 20px;
   display: flex;
   justify-content: space-around;
