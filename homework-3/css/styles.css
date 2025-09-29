@@ -35,6 +35,11 @@ p {
   margin-top: 16px;
 }
 
+.description {
+  font-size: 20px;
+  margin-top: 16px;
+}
+
 nav {
   background-color: #fece7a;
   padding: 20px;
@@ -52,6 +57,37 @@ nav a {
 
 nav a:hover {
   transform: scale(1.2);
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.container p {
+  font-size: 24px;
+  width: 120px;
+  font-weight: bold;
+  margin-right: 32px;
+}
+
+.container img {
+  margin-right: 16px;
+}
+
+.image-home {
+  width: 200px;
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.image-home:hover {
+  transform: scale(1.1);
+  filter: brightness(1.1);
+}
+
+.image {
+  margin-top: 16px;
 }
 
 footer {
