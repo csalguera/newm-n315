@@ -1,0 +1,45 @@
+.home-banner {
+  justify-self: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 600px;
+}
+
+.home-banner img {
+  display: block;
+  object-fit: contain;
+  width: 100%;
+  height: auto;
+  transition: transform 0.3s ease, filter 0.3s ease;
+  margin: 24px 0;
+}
+
+.home-banner img:hover {
+  transform: scale(1.1);
+  filter: brightness(1.3);
+}
+
+.banner-container {
+  margin-top: 24px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 16px;
+  max-width: 1200px;
+  margin-inline: auto;
+}
+
+.banner-container img {
+  flex: 0 1 300px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 5px;
+  padding: 12px;
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.banner-container img:hover {
+  transform: scale(1.1);
+  filter: brightness(1.3);
+}
