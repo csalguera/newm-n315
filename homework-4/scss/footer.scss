@@ -1,19 +1,18 @@
-nav {
+footer {
   background-color: rgb(140, 82, 255);
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
   padding: 20px;
+  display: flex;
+  justify-content: space-around;
 }
 
-nav a {
+footer a {
+  color: #fff;
   font-size: 16px;
   text-decoration: none;
-  color: #fff;
   font-weight: bold;
   transition: transform 0.3s ease;
 }
 
-nav a:hover {
+footer a:hover {
   transform: scale(1.2);
 }
