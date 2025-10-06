@@ -1,4 +1,4 @@
-### Homework 1
+### Homework 3
 
 #### [Web 4 Server](https://in-info-web4.luddy.indianapolis.iu.edu/~csalguer/homework-3/)
 
